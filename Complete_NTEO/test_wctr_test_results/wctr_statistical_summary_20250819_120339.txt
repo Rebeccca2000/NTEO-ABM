@@ -1,0 +1,13 @@
+WCTR STATISTICAL ANALYSIS SUMMARY
+==================================================
+
+ANOVA RESULTS (Parameter Effects Within Topologies):
+--------------------------------------------------
+
+DEGREE CONSTRAINED:
+
+SAMPLE SIZES:
+--------------------
+degree_constrained: 1 total simulation runs
+
+Generated: 2025-08-19 12:04:05

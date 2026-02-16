@@ -1,0 +1,44 @@
+{
+  "topology_type": "degree_constrained",
+  "parameter_values": [
+    5,
+    10
+  ],
+  "num_runs": 1,
+  "steps_per_run": 80,
+  "num_commuters": 140,
+  "results": {
+    "degree_constrained_5": {
+      "parameter_value": 5,
+      "runs": [
+        {
+          "error": "'MobilityModelNTEO' object has no attribute 'network_manager'"
+        }
+      ],
+      "network_stats": {},
+      "performance_metrics": {
+        "error": "All runs failed"
+      }
+    },
+    "degree_constrained_10": {
+      "parameter_value": 10,
+      "runs": [
+        {
+          "error": "'MobilityModelNTEO' object has no attribute 'network_manager'"
+        }
+      ],
+      "network_stats": {},
+      "performance_metrics": {
+        "error": "All runs failed"
+      }
+    }
+  },
+  "summary_stats": {
+    "total_configurations": 2,
+    "successful_configurations": 0,
+    "best_equity_config": null,
+    "best_efficiency_config": null,
+    "parameter_performance": {}
+  },
+  "study_timestamp": "20250818_220957"
+}

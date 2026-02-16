@@ -1,0 +1,44 @@
+{
+  "topology_type": "scale_free",
+  "parameter_values": [
+    2,
+    11
+  ],
+  "num_runs": 1,
+  "steps_per_run": 80,
+  "num_commuters": 140,
+  "results": {
+    "scale_free_2": {
+      "parameter_value": 2,
+      "runs": [
+        {
+          "error": "'MobilityModelNTEO' object has no attribute 'network_manager'"
+        }
+      ],
+      "network_stats": {},
+      "performance_metrics": {
+        "error": "All runs failed"
+      }
+    },
+    "scale_free_11": {
+      "parameter_value": 11,
+      "runs": [
+        {
+          "error": "'MobilityModelNTEO' object has no attribute 'network_manager'"
+        }
+      ],
+      "network_stats": {},
+      "performance_metrics": {
+        "error": "All runs failed"
+      }
+    }
+  },
+  "summary_stats": {
+    "total_configurations": 2,
+    "successful_configurations": 0,
+    "best_equity_config": null,
+    "best_efficiency_config": null,
+    "parameter_performance": {}
+  },
+  "study_timestamp": "20250818_220936"
+}

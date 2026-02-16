@@ -1,0 +1,55 @@
+NTEO TOPOLOGY PERFORMANCE SUMMARY
+==================================================
+
+Degree Constrained:
+  Mode Choice Equity:
+    Mean: 1.310
+    Std:  0.112
+    95% CI: [1.298, 1.323]
+    Sample size: 315 runs
+  Travel Time Equity:
+    Mean: 8.745
+    Std:  1.360
+    95% CI: [8.594, 8.896]
+    Sample size: 315 runs
+  System Efficiency:
+    Mean: 2546.879
+    Std:  129.159
+    95% CI: [2532.561, 2561.198]
+    Sample size: 315 runs
+
+Small World:
+  Mode Choice Equity:
+    Mean: 1.325
+    Std:  0.112
+    95% CI: [1.311, 1.338]
+    Sample size: 280 runs
+  Travel Time Equity:
+    Mean: 8.590
+    Std:  1.466
+    95% CI: [8.417, 8.762]
+    Sample size: 280 runs
+  System Efficiency:
+    Mean: 2547.964
+    Std:  135.507
+    95% CI: [2532.023, 2563.905]
+    Sample size: 280 runs
+
+Scale Free:
+  Mode Choice Equity:
+    Mean: 1.297
+    Std:  0.118
+    95% CI: [1.283, 1.311]
+    Sample size: 280 runs
+  Travel Time Equity:
+    Mean: 9.014
+    Std:  1.580
+    95% CI: [8.828, 9.200]
+    Sample size: 280 runs
+  System Efficiency:
+    Mean: 2515.171
+    Std:  167.427
+    95% CI: [2495.475, 2534.868]
+    Sample size: 280 runs
+
+Generated: 2025-08-26T13:45:27.977896

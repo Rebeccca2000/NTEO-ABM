@@ -1,0 +1,44 @@
+{
+  "topology_type": "small_world",
+  "parameter_values": [
+    0.1,
+    0.5
+  ],
+  "num_runs": 1,
+  "steps_per_run": 80,
+  "num_commuters": 140,
+  "results": {
+    "small_world_0.1": {
+      "parameter_value": 0.1,
+      "runs": [
+        {
+          "error": "'MobilityModelNTEO' object has no attribute 'network_manager'"
+        }
+      ],
+      "network_stats": {},
+      "performance_metrics": {
+        "error": "All runs failed"
+      }
+    },
+    "small_world_0.5": {
+      "parameter_value": 0.5,
+      "runs": [
+        {
+          "error": "'MobilityModelNTEO' object has no attribute 'network_manager'"
+        }
+      ],
+      "network_stats": {},
+      "performance_metrics": {
+        "error": "All runs failed"
+      }
+    }
+  },
+  "summary_stats": {
+    "total_configurations": 2,
+    "successful_configurations": 0,
+    "best_equity_config": null,
+    "best_efficiency_config": null,
+    "parameter_performance": {}
+  },
+  "study_timestamp": "20250818_220957"
+}

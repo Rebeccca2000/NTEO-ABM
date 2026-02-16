@@ -1,0 +1,1017 @@
+{
+  "analysis_type": "maas_surcharge_impact",
+  "network_type": "base_sydney",
+  "timestamp": "20250827_095740",
+  "parameters": {
+    "s_base_values": [
+      0.0,
+      0.02,
+      0.05,
+      0.08,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "num_runs": 3,
+    "steps_per_run": 144,
+    "num_commuters": 200
+  },
+  "raw_data": {
+    "0.0": {
+      "parameter_value": 0.0,
+      "runs": [
+        {
+          "run_id": "s_base_0.0_run_0",
+          "execution_time": 74.69779109954834,
+          "final_mode_choice_equity": 1.2471558678116055,
+          "final_travel_time_equity": 9.796239279122789,
+          "final_system_efficiency": 3685.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 12,
+            "bike": 0,
+            "public": 5,
+            "car": 8,
+            "maas": 1
+          },
+          "mode_percentages": {
+            "walk": 46.15384615384615,
+            "bike": 0.0,
+            "public": 19.230769230769234,
+            "car": 30.76923076923077,
+            "maas": 3.8461538461538463
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 26,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.0_run_1",
+          "execution_time": 74.849928855896,
+          "final_mode_choice_equity": 1.2430137094265428,
+          "final_travel_time_equity": 9.288615542896636,
+          "final_system_efficiency": 3779.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 6,
+            "bike": 4,
+            "public": 3,
+            "car": 4,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 35.294117647058826,
+            "bike": 23.52941176470588,
+            "public": 17.647058823529413,
+            "car": 23.52941176470588,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 17,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.0_run_2",
+          "execution_time": 77.94578385353088,
+          "final_mode_choice_equity": 1.160311820842976,
+          "final_travel_time_equity": 9.175962004433094,
+          "final_system_efficiency": 3695.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 5,
+            "bike": 3,
+            "public": 4,
+            "car": 8,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 25.0,
+            "bike": 15.0,
+            "public": 20.0,
+            "car": 40.0,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 20,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.2168271326937081,
+        "final_mode_choice_equity_std": 0.039998122657702036,
+        "final_mode_choice_equity_min": 1.160311820842976,
+        "final_mode_choice_equity_max": 1.2471558678116055,
+        "final_travel_time_equity_mean": 9.420272275484173,
+        "final_travel_time_equity_std": 0.2697975732542683,
+        "final_travel_time_equity_min": 9.175962004433094,
+        "final_travel_time_equity_max": 9.796239279122789,
+        "final_system_efficiency_mean": 3719.6666666666665,
+        "final_system_efficiency_std": 42.153159892099296,
+        "final_system_efficiency_min": 3685.0,
+        "final_system_efficiency_max": 3779.0,
+        "mode_share_stats": {
+          "walk_percentage_mean": 35.48265460030166,
+          "walk_percentage_std": 8.637050476954945,
+          "bike_percentage_mean": 12.843137254901961,
+          "bike_percentage_std": 9.7261622158713,
+          "public_percentage_mean": 18.959276018099548,
+          "public_percentage_std": 0.9795796610032889,
+          "car_percentage_mean": 31.432880844645553,
+          "car_percentage_std": 6.740444731672671,
+          "maas_percentage_mean": 1.2820512820512822,
+          "maas_percentage_std": 1.8130943107347373
+        }
+      }
+    },
+    "0.02": {
+      "parameter_value": 0.02,
+      "runs": [
+        {
+          "run_id": "s_base_0.02_run_0",
+          "execution_time": 77.08787608146667,
+          "final_mode_choice_equity": 1.4997700039982607,
+          "final_travel_time_equity": 10.413668752978634,
+          "final_system_efficiency": 3862.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 9,
+            "bike": 1,
+            "public": 11,
+            "car": 9,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 30.0,
+            "bike": 3.3333333333333335,
+            "public": 36.666666666666664,
+            "car": 30.0,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 30,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.02_run_1",
+          "execution_time": 73.33639216423035,
+          "final_mode_choice_equity": 1.5063433328928242,
+          "final_travel_time_equity": 11.690337167689345,
+          "final_system_efficiency": 4121.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 10,
+            "bike": 0,
+            "public": 9,
+            "car": 5,
+            "maas": 1
+          },
+          "mode_percentages": {
+            "walk": 40.0,
+            "bike": 0.0,
+            "public": 36.0,
+            "car": 20.0,
+            "maas": 4.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 25,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.02_run_2",
+          "execution_time": 71.65932989120483,
+          "final_mode_choice_equity": 1.224749906382068,
+          "final_travel_time_equity": 11.558210829647997,
+          "final_system_efficiency": 3889.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 8,
+            "bike": 6,
+            "public": 3,
+            "car": 7,
+            "maas": 1
+          },
+          "mode_percentages": {
+            "walk": 32.0,
+            "bike": 24.0,
+            "public": 12.0,
+            "car": 28.000000000000004,
+            "maas": 4.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 25,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.4102877477577176,
+        "final_mode_choice_equity_std": 0.1312225084857544,
+        "final_mode_choice_equity_min": 1.224749906382068,
+        "final_mode_choice_equity_max": 1.5063433328928242,
+        "final_travel_time_equity_mean": 11.220738916771992,
+        "final_travel_time_equity_std": 0.5732283019676847,
+        "final_travel_time_equity_min": 10.413668752978634,
+        "final_travel_time_equity_max": 11.690337167689345,
+        "final_system_efficiency_mean": 3957.3333333333335,
+        "final_system_efficiency_std": 116.25355430647653,
+        "final_system_efficiency_min": 3862.0,
+        "final_system_efficiency_max": 4121.0,
+        "mode_share_stats": {
+          "walk_percentage_mean": 34.0,
+          "walk_percentage_std": 4.320493798938574,
+          "bike_percentage_mean": 9.11111111111111,
+          "bike_percentage_std": 10.6156185888855,
+          "public_percentage_mean": 28.222222222222218,
+          "public_percentage_std": 11.474071683044965,
+          "car_percentage_mean": 26.0,
+          "car_percentage_std": 4.320493798938574,
+          "maas_percentage_mean": 2.6666666666666665,
+          "maas_percentage_std": 1.8856180831641267
+        }
+      }
+    },
+    "0.05": {
+      "parameter_value": 0.05,
+      "runs": [
+        {
+          "run_id": "s_base_0.05_run_0",
+          "execution_time": 78.95979595184326,
+          "final_mode_choice_equity": 1.347317208681202,
+          "final_travel_time_equity": 8.785365470693371,
+          "final_system_efficiency": 3754.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 10,
+            "bike": 2,
+            "public": 9,
+            "car": 7,
+            "maas": 1
+          },
+          "mode_percentages": {
+            "walk": 34.48275862068966,
+            "bike": 6.896551724137931,
+            "public": 31.03448275862069,
+            "car": 24.137931034482758,
+            "maas": 3.4482758620689653
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 29,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.05_run_1",
+          "execution_time": 87.31940293312073,
+          "final_mode_choice_equity": 1.5723483642793987,
+          "final_travel_time_equity": 12.311687275382592,
+          "final_system_efficiency": 3961.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 10,
+            "bike": 3,
+            "public": 8,
+            "car": 8,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 34.48275862068966,
+            "bike": 10.344827586206897,
+            "public": 27.586206896551722,
+            "car": 27.586206896551722,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 29,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.05_run_2",
+          "execution_time": 77.4217529296875,
+          "final_mode_choice_equity": 1.3881927596213315,
+          "final_travel_time_equity": 10.079902255670792,
+          "final_system_efficiency": 3715.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 4,
+            "bike": 2,
+            "public": 6,
+            "car": 4,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 25.0,
+            "bike": 12.5,
+            "public": 37.5,
+            "car": 25.0,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 16,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.4359527775273107,
+        "final_mode_choice_equity_std": 0.09787924441286332,
+        "final_mode_choice_equity_min": 1.347317208681202,
+        "final_mode_choice_equity_max": 1.5723483642793987,
+        "final_travel_time_equity_mean": 10.392318333915584,
+        "final_travel_time_equity_std": 1.4564658645767738,
+        "final_travel_time_equity_min": 8.785365470693371,
+        "final_travel_time_equity_max": 12.311687275382592,
+        "final_system_efficiency_mean": 3810.0,
+        "final_system_efficiency_std": 107.95369377654477,
+        "final_system_efficiency_min": 3715.0,
+        "final_system_efficiency_max": 3961.0,
+        "mode_share_stats": {
+          "walk_percentage_mean": 31.32183908045977,
+          "walk_percentage_std": 4.470215283363233,
+          "bike_percentage_mean": 9.913793103448276,
+          "bike_percentage_std": 2.30781298911049,
+          "public_percentage_mean": 32.04022988505747,
+          "public_percentage_std": 4.109295875308935,
+          "car_percentage_mean": 25.574712643678158,
+          "car_percentage_std": 1.4652354924117192,
+          "maas_percentage_mean": 1.1494252873563218,
+          "maas_percentage_std": 1.625532830313902
+        }
+      }
+    },
+    "0.08": {
+      "parameter_value": 0.08,
+      "runs": [
+        {
+          "run_id": "s_base_0.08_run_0",
+          "execution_time": 78.20736885070801,
+          "final_mode_choice_equity": 1.3884784675802904,
+          "final_travel_time_equity": 10.65902261332747,
+          "final_system_efficiency": 3896.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 6,
+            "bike": 2,
+            "public": 9,
+            "car": 5,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 27.27272727272727,
+            "bike": 9.090909090909092,
+            "public": 40.909090909090914,
+            "car": 22.727272727272727,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 22,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.08_run_1",
+          "execution_time": 90.27157616615295,
+          "final_mode_choice_equity": 1.4255826575751085,
+          "final_travel_time_equity": 10.128287012268945,
+          "final_system_efficiency": 3799.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 9,
+            "bike": 3,
+            "public": 7,
+            "car": 2,
+            "maas": 1
+          },
+          "mode_percentages": {
+            "walk": 40.909090909090914,
+            "bike": 13.636363636363635,
+            "public": 31.818181818181817,
+            "car": 9.090909090909092,
+            "maas": 4.545454545454546
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 22,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.08_run_2",
+          "execution_time": 77.51798176765442,
+          "final_mode_choice_equity": 1.2743240952623103,
+          "final_travel_time_equity": 8.385240507864529,
+          "final_system_efficiency": 3591.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 9,
+            "bike": 1,
+            "public": 6,
+            "car": 8,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 37.5,
+            "bike": 4.166666666666666,
+            "public": 25.0,
+            "car": 33.33333333333333,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 24,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.3627950734725696,
+        "final_mode_choice_equity_std": 0.06436622156536786,
+        "final_mode_choice_equity_min": 1.2743240952623103,
+        "final_mode_choice_equity_max": 1.4255826575751085,
+        "final_travel_time_equity_mean": 9.724183377820315,
+        "final_travel_time_equity_std": 0.9712521390149992,
+        "final_travel_time_equity_min": 8.385240507864529,
+        "final_travel_time_equity_max": 10.65902261332747,
+        "final_system_efficiency_mean": 3762.0,
+        "final_system_efficiency_std": 127.23469128609015,
+        "final_system_efficiency_min": 3591.0,
+        "final_system_efficiency_max": 3896.0,
+        "mode_share_stats": {
+          "walk_percentage_mean": 35.22727272727273,
+          "walk_percentage_std": 5.794340356355439,
+          "bike_percentage_mean": 8.964646464646464,
+          "bike_percentage_std": 3.867018391695342,
+          "public_percentage_mean": 32.57575757575758,
+          "public_percentage_std": 6.516913081092901,
+          "car_percentage_mean": 21.71717171717172,
+          "car_percentage_std": 9.922668032519443,
+          "maas_percentage_mean": 1.5151515151515154,
+          "maas_percentage_std": 2.1427478217774167
+        }
+      }
+    },
+    "0.1": {
+      "parameter_value": 0.1,
+      "runs": [
+        {
+          "run_id": "s_base_0.1_run_0",
+          "execution_time": 77.40321803092957,
+          "final_mode_choice_equity": 1.2789524181128973,
+          "final_travel_time_equity": 10.826204817315215,
+          "final_system_efficiency": 3796.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 5,
+            "bike": 5,
+            "public": 3,
+            "car": 7,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 25.0,
+            "bike": 25.0,
+            "public": 15.0,
+            "car": 35.0,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 20,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.1_run_1",
+          "execution_time": 86.88643908500671,
+          "final_mode_choice_equity": 1.1339381974489293,
+          "final_travel_time_equity": 8.54968553939445,
+          "final_system_efficiency": 3672.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 10,
+            "bike": 3,
+            "public": 8,
+            "car": 3,
+            "maas": 1
+          },
+          "mode_percentages": {
+            "walk": 40.0,
+            "bike": 12.0,
+            "public": 32.0,
+            "car": 12.0,
+            "maas": 4.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 25,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.1_run_2",
+          "execution_time": 85.16655611991882,
+          "final_mode_choice_equity": 1.2103321458560024,
+          "final_travel_time_equity": 9.214708125074772,
+          "final_system_efficiency": 3675.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 6,
+            "bike": 2,
+            "public": 6,
+            "car": 9,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 26.08695652173913,
+            "bike": 8.695652173913043,
+            "public": 26.08695652173913,
+            "car": 39.130434782608695,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 23,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.2077409204726095,
+        "final_mode_choice_equity_std": 0.05923015496313316,
+        "final_mode_choice_equity_min": 1.1339381974489293,
+        "final_mode_choice_equity_max": 1.2789524181128973,
+        "final_travel_time_equity_mean": 9.530199493928146,
+        "final_travel_time_equity_std": 0.9557845323962764,
+        "final_travel_time_equity_min": 8.54968553939445,
+        "final_travel_time_equity_max": 10.826204817315215,
+        "final_system_efficiency_mean": 3714.3333333333335,
+        "final_system_efficiency_std": 57.76004001229762,
+        "final_system_efficiency_min": 3672.0,
+        "final_system_efficiency_max": 3796.0,
+        "mode_share_stats": {
+          "walk_percentage_mean": 30.362318840579707,
+          "walk_percentage_std": 6.829301683091833,
+          "bike_percentage_mean": 15.231884057971016,
+          "bike_percentage_std": 7.037601174246427,
+          "public_percentage_mean": 24.362318840579707,
+          "public_percentage_std": 7.046549100964538,
+          "car_percentage_mean": 28.71014492753623,
+          "car_percentage_std": 11.935572336445777,
+          "maas_percentage_mean": 1.3333333333333333,
+          "maas_percentage_std": 1.8856180831641267
+        }
+      }
+    },
+    "0.15": {
+      "parameter_value": 0.15,
+      "runs": [
+        {
+          "run_id": "s_base_0.15_run_0",
+          "execution_time": 93.93492698669434,
+          "final_mode_choice_equity": 1.384135986649489,
+          "final_travel_time_equity": 10.813641893741044,
+          "final_system_efficiency": 3997.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 10,
+            "bike": 5,
+            "public": 6,
+            "car": 4,
+            "maas": 1
+          },
+          "mode_percentages": {
+            "walk": 38.46153846153847,
+            "bike": 19.230769230769234,
+            "public": 23.076923076923077,
+            "car": 15.384615384615385,
+            "maas": 3.8461538461538463
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 26,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.15_run_1",
+          "execution_time": 84.5285313129425,
+          "final_mode_choice_equity": 1.4203637233361586,
+          "final_travel_time_equity": 9.252743020547877,
+          "final_system_efficiency": 3710.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 5,
+            "bike": 3,
+            "public": 3,
+            "car": 6,
+            "maas": 1
+          },
+          "mode_percentages": {
+            "walk": 27.77777777777778,
+            "bike": 16.666666666666664,
+            "public": 16.666666666666664,
+            "car": 33.33333333333333,
+            "maas": 5.555555555555555
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 18,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.15_run_2",
+          "execution_time": 89.63018417358398,
+          "final_mode_choice_equity": 1.097957597957598,
+          "final_travel_time_equity": 9.754895567395566,
+          "final_system_efficiency": 3967.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 9,
+            "bike": 3,
+            "public": 6,
+            "car": 6,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 37.5,
+            "bike": 12.5,
+            "public": 25.0,
+            "car": 25.0,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 24,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.3008191026477485,
+        "final_mode_choice_equity_std": 0.1442051889732674,
+        "final_mode_choice_equity_min": 1.097957597957598,
+        "final_mode_choice_equity_max": 1.4203637233361586,
+        "final_travel_time_equity_mean": 9.940426827228164,
+        "final_travel_time_equity_std": 0.6505985497295177,
+        "final_travel_time_equity_min": 9.252743020547877,
+        "final_travel_time_equity_max": 10.813641893741044,
+        "final_system_efficiency_mean": 3891.3333333333335,
+        "final_system_efficiency_std": 128.80562444586374,
+        "final_system_efficiency_min": 3710.0,
+        "final_system_efficiency_max": 3997.0,
+        "mode_share_stats": {
+          "walk_percentage_mean": 34.579772079772084,
+          "walk_percentage_std": 4.825728540267377,
+          "bike_percentage_mean": 16.132478632478634,
+          "bike_percentage_std": 2.7736655952451224,
+          "public_percentage_mean": 21.58119658119658,
+          "public_percentage_std": 3.562677777891682,
+          "car_percentage_mean": 24.57264957264957,
+          "car_percentage_std": 7.3337616674062005,
+          "maas_percentage_mean": 3.133903133903134,
+          "maas_percentage_std": 2.323291514287762
+        }
+      }
+    },
+    "0.2": {
+      "parameter_value": 0.2,
+      "runs": [
+        {
+          "run_id": "s_base_0.2_run_0",
+          "execution_time": 78.65268111228943,
+          "final_mode_choice_equity": 1.3804432824571322,
+          "final_travel_time_equity": 8.195605932603488,
+          "final_system_efficiency": 3731.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 9,
+            "bike": 4,
+            "public": 5,
+            "car": 9,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 33.33333333333333,
+            "bike": 14.814814814814813,
+            "public": 18.51851851851852,
+            "car": 33.33333333333333,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 27,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.2_run_1",
+          "execution_time": 79.41436791419983,
+          "final_mode_choice_equity": 1.348762348762349,
+          "final_travel_time_equity": 10.778846153846153,
+          "final_system_efficiency": 3954.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 5,
+            "bike": 5,
+            "public": 4,
+            "car": 8,
+            "maas": 1
+          },
+          "mode_percentages": {
+            "walk": 21.73913043478261,
+            "bike": 21.73913043478261,
+            "public": 17.391304347826086,
+            "car": 34.78260869565217,
+            "maas": 4.3478260869565215
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 23,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.2_run_2",
+          "execution_time": 81.332937002182,
+          "final_mode_choice_equity": 1.3141967422548704,
+          "final_travel_time_equity": 10.51406430232466,
+          "final_system_efficiency": 4043.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 8,
+            "bike": 3,
+            "public": 6,
+            "car": 11,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 28.57142857142857,
+            "bike": 10.714285714285714,
+            "public": 21.428571428571427,
+            "car": 39.285714285714285,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 28,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.3478007911581174,
+        "final_mode_choice_equity_std": 0.0270535822269087,
+        "final_mode_choice_equity_min": 1.3141967422548704,
+        "final_mode_choice_equity_max": 1.3804432824571322,
+        "final_travel_time_equity_mean": 9.829505462924766,
+        "final_travel_time_equity_std": 1.1603873243050815,
+        "final_travel_time_equity_min": 8.195605932603488,
+        "final_travel_time_equity_max": 10.778846153846153,
+        "final_system_efficiency_mean": 3909.3333333333335,
+        "final_system_efficiency_std": 131.23092453974238,
+        "final_system_efficiency_min": 3731.0,
+        "final_system_efficiency_max": 4043.0,
+        "mode_share_stats": {
+          "walk_percentage_mean": 27.881297446514836,
+          "walk_percentage_std": 4.758402809092669,
+          "bike_percentage_mean": 15.756076987961045,
+          "bike_percentage_std": 4.549819127299754,
+          "public_percentage_mean": 19.112798098305344,
+          "public_percentage_std": 1.7009325941046196,
+          "car_percentage_mean": 35.80055210489993,
+          "car_percentage_std": 2.534412007927429,
+          "maas_percentage_mean": 1.4492753623188406,
+          "maas_percentage_std": 2.049584873004485
+        }
+      }
+    },
+    "0.25": {
+      "parameter_value": 0.25,
+      "runs": [
+        {
+          "run_id": "s_base_0.25_run_0",
+          "execution_time": 95.00213694572449,
+          "final_mode_choice_equity": 1.3141921073960934,
+          "final_travel_time_equity": 8.450395932476038,
+          "final_system_efficiency": 3690.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 15,
+            "bike": 1,
+            "public": 3,
+            "car": 5,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 62.5,
+            "bike": 4.166666666666666,
+            "public": 12.5,
+            "car": 20.833333333333336,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 24,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.25_run_1",
+          "execution_time": 88.55829095840454,
+          "final_mode_choice_equity": 1.2347444164096812,
+          "final_travel_time_equity": 9.51583492376701,
+          "final_system_efficiency": 3750.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 10,
+            "bike": 5,
+            "public": 6,
+            "car": 4,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 40.0,
+            "bike": 20.0,
+            "public": 24.0,
+            "car": 16.0,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 25,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.25_run_2",
+          "execution_time": 82.90050983428955,
+          "final_mode_choice_equity": 1.3192497372463419,
+          "final_travel_time_equity": 8.523458796340304,
+          "final_system_efficiency": 3619.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 11,
+            "bike": 1,
+            "public": 4,
+            "car": 4,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 55.00000000000001,
+            "bike": 5.0,
+            "public": 20.0,
+            "car": 20.0,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 20,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.2893954203507054,
+        "final_mode_choice_equity_std": 0.03869921686328134,
+        "final_mode_choice_equity_min": 1.2347444164096812,
+        "final_mode_choice_equity_max": 1.3192497372463419,
+        "final_travel_time_equity_mean": 8.829896550861116,
+        "final_travel_time_equity_std": 0.4859479629806737,
+        "final_travel_time_equity_min": 8.450395932476038,
+        "final_travel_time_equity_max": 9.51583492376701,
+        "final_system_efficiency_mean": 3686.3333333333335,
+        "final_system_efficiency_std": 53.54333654983493,
+        "final_system_efficiency_min": 3619.0,
+        "final_system_efficiency_max": 3750.0,
+        "mode_share_stats": {
+          "walk_percentage_mean": 52.5,
+          "walk_percentage_std": 9.354143466934854,
+          "bike_percentage_mean": 9.722222222222221,
+          "bike_percentage_std": 7.275444918727109,
+          "public_percentage_mean": 18.833333333333332,
+          "public_percentage_std": 4.766783215358363,
+          "car_percentage_mean": 18.944444444444446,
+          "car_percentage_std": 2.109648616227503,
+          "maas_percentage_mean": 0.0,
+          "maas_percentage_std": 0.0
+        }
+      }
+    },
+    "0.3": {
+      "parameter_value": 0.3,
+      "runs": [
+        {
+          "run_id": "s_base_0.3_run_0",
+          "execution_time": 89.01428413391113,
+          "final_mode_choice_equity": 1.4787538374974085,
+          "final_travel_time_equity": 9.119487346324757,
+          "final_system_efficiency": 3891.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 14,
+            "bike": 7,
+            "public": 8,
+            "car": 8,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 37.83783783783784,
+            "bike": 18.91891891891892,
+            "public": 21.62162162162162,
+            "car": 21.62162162162162,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 37,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.3_run_1",
+          "execution_time": 79.55956506729126,
+          "final_mode_choice_equity": 1.4974374284719112,
+          "final_travel_time_equity": 10.087019793380342,
+          "final_system_efficiency": 3945.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 11,
+            "bike": 5,
+            "public": 9,
+            "car": 8,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 33.33333333333333,
+            "bike": 15.151515151515152,
+            "public": 27.27272727272727,
+            "car": 24.242424242424242,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 33,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.3_run_2",
+          "execution_time": 83.30468201637268,
+          "final_mode_choice_equity": 1.3763471179104987,
+          "final_travel_time_equity": 9.651412118951306,
+          "final_system_efficiency": 3730.0,
+          "steps_completed": 144,
+          "mode_share": {
+            "walk": 10,
+            "bike": 3,
+            "public": 7,
+            "car": 10,
+            "maas": 0
+          },
+          "mode_percentages": {
+            "walk": 33.33333333333333,
+            "bike": 10.0,
+            "public": 23.333333333333332,
+            "car": 33.33333333333333,
+            "maas": 0.0
+          },
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 30,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.4508461279599392,
+        "final_mode_choice_equity_std": 0.0532281004525845,
+        "final_mode_choice_equity_min": 1.3763471179104987,
+        "final_mode_choice_equity_max": 1.4974374284719112,
+        "final_travel_time_equity_mean": 9.619306419552135,
+        "final_travel_time_equity_std": 0.3956453302110995,
+        "final_travel_time_equity_min": 9.119487346324757,
+        "final_travel_time_equity_max": 10.087019793380342,
+        "final_system_efficiency_mean": 3855.3333333333335,
+        "final_system_efficiency_std": 91.32481712120874,
+        "final_system_efficiency_min": 3730.0,
+        "final_system_efficiency_max": 3945.0,
+        "mode_share_stats": {
+          "walk_percentage_mean": 34.83483483483483,
+          "walk_percentage_std": 2.123443787346992,
+          "bike_percentage_mean": 14.690144690144692,
+          "bike_percentage_std": 3.6557193270756216,
+          "public_percentage_mean": 24.075894075894073,
+          "public_percentage_std": 2.3660510155508514,
+          "car_percentage_mean": 26.3991263991264,
+          "car_percentage_std": 5.018603454421963,
+          "maas_percentage_mean": 0.0,
+          "maas_percentage_std": 0.0
+        }
+      }
+    }
+  },
+  "summary_stats": {
+    "parameters_tested": 9,
+    "optimal_values": {
+      "final_mode_choice_equity": {
+        "optimal_s_base": 0.1,
+        "optimal_value": 1.2077409204726095
+      },
+      "final_travel_time_equity": {
+        "optimal_s_base": 0.25,
+        "optimal_value": 8.829896550861116
+      },
+      "final_system_efficiency": {
+        "optimal_s_base": 0.02,
+        "optimal_value": 3957.3333333333335
+      }
+    },
+    "sensitivity_analysis": {
+      "final_mode_choice_equity": {
+        "range": 0.24310520748732967,
+        "coefficient_of_variation": 0.0629387345341571
+      },
+      "final_travel_time_equity": {
+        "range": 2.390842365910876,
+        "coefficient_of_variation": 0.06409738175994449
+      },
+      "final_system_efficiency": {
+        "range": 271.0,
+        "coefficient_of_variation": 0.02396916752420586
+      }
+    }
+  }
+}

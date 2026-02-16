@@ -1,0 +1,28 @@
+WCTR STATISTICAL ANALYSIS SUMMARY
+==================================================
+
+ANOVA RESULTS (Parameter Effects Within Topologies):
+--------------------------------------------------
+
+DEGREE CONSTRAINED:
+  mode_choice_equity: F=1.171, p=0.3276 (NOT SIGNIFICANT), η²=0.213 (large effect)
+  travel_time_equity: F=0.507, p=0.9007 (NOT SIGNIFICANT), η²=0.105 (medium effect)
+  system_efficiency: F=1.465, p=0.1677 (NOT SIGNIFICANT), η²=0.253 (large effect)
+
+SMALL WORLD:
+  mode_choice_equity: F=0.558, p=0.8522 (NOT SIGNIFICANT), η²=0.113 (medium effect)
+  travel_time_equity: F=1.148, p=0.3477 (NOT SIGNIFICANT), η²=0.208 (large effect)
+  system_efficiency: F=1.382, p=0.2123 (NOT SIGNIFICANT), η²=0.240 (large effect)
+
+SCALE FREE:
+  mode_choice_equity: F=2.564, p=0.0095 (SIGNIFICANT), η²=0.372 (large effect)
+  travel_time_equity: F=0.838, p=0.6117 (NOT SIGNIFICANT), η²=0.162 (large effect)
+  system_efficiency: F=1.301, p=0.2463 (NOT SIGNIFICANT), η²=0.231 (large effect)
+
+SAMPLE SIZES:
+--------------------
+degree_constrained: 65 total simulation runs
+small_world: 60 total simulation runs
+scale_free: 65 total simulation runs
+
+Generated: 2025-08-16 00:02:08

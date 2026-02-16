@@ -1,0 +1,1354 @@
+{
+  "analysis_type": "bike_speed_sensitivity",
+  "baseline_network": {
+    "topology_type": "base_sydney",
+    "connectivity_level": 6,
+    "grid_width": 100,
+    "grid_height": 80,
+    "sydney_realism": true
+  },
+  "speed_results": {
+    "1.0": {
+      "bike_speed": 1.0,
+      "runs": [
+        {
+          "run_id": "bike_speed_1.0_run_0",
+          "bike_speed": 1.0,
+          "execution_time": 81.09571599960327,
+          "final_mode_choice_equity": 1.0067851863471928,
+          "final_travel_time_equity": 4.498036272729909,
+          "final_system_efficiency": 3041.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 639,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_1.0_run_1",
+          "bike_speed": 1.0,
+          "execution_time": 76.48241901397705,
+          "final_mode_choice_equity": 1.129837001612978,
+          "final_travel_time_equity": 3.915018522554254,
+          "final_system_efficiency": 2777.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 608,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_1.0_run_2",
+          "bike_speed": 1.0,
+          "execution_time": 73.25877022743225,
+          "final_mode_choice_equity": 1.1099789091254773,
+          "final_travel_time_equity": 5.0913196787483646,
+          "final_system_efficiency": 3009.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 590,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_1.0_run_3",
+          "bike_speed": 1.0,
+          "execution_time": 73.41757011413574,
+          "final_mode_choice_equity": 0.9558669011300591,
+          "final_travel_time_equity": 4.957644914425099,
+          "final_system_efficiency": 3042.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 595,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_1.0_run_4",
+          "bike_speed": 1.0,
+          "execution_time": 74.12278485298157,
+          "final_mode_choice_equity": 1.3094244973810067,
+          "final_travel_time_equity": 5.124041608380265,
+          "final_system_efficiency": 3050.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 593,
+            "avg_route_time": 0.0
+          }
+        }
+      ],
+      "statistics": {
+        "final_mode_choice_equity": {
+          "mean": 1.1023784991193426,
+          "std": 0.12188807224642682,
+          "min": 0.9558669011300591,
+          "max": 1.3094244973810067,
+          "median": 1.1099789091254773,
+          "n_samples": 5
+        },
+        "final_travel_time_equity": {
+          "mean": 4.717212199367578,
+          "std": 0.4593097531237389,
+          "min": 3.915018522554254,
+          "max": 5.124041608380265,
+          "median": 4.957644914425099,
+          "n_samples": 5
+        },
+        "final_system_efficiency": {
+          "mean": 2983.8,
+          "std": 104.34826304256339,
+          "min": 2777.0,
+          "max": 3050.0,
+          "median": 3041.0,
+          "n_samples": 5
+        }
+      }
+    },
+    "1.5": {
+      "bike_speed": 1.5,
+      "runs": [
+        {
+          "run_id": "bike_speed_1.5_run_0",
+          "bike_speed": 1.5,
+          "execution_time": 74.46727085113525,
+          "final_mode_choice_equity": 0.8689738292011021,
+          "final_travel_time_equity": 4.264171600828158,
+          "final_system_efficiency": 2885.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 606,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_1.5_run_1",
+          "bike_speed": 1.5,
+          "execution_time": 70.31042313575745,
+          "final_mode_choice_equity": 0.9478225478225477,
+          "final_travel_time_equity": 3.803593166093166,
+          "final_system_efficiency": 2945.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 594,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_1.5_run_2",
+          "bike_speed": 1.5,
+          "execution_time": 73.03115224838257,
+          "final_mode_choice_equity": 1.0456895600418323,
+          "final_travel_time_equity": 5.148287727317113,
+          "final_system_efficiency": 3031.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 605,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_1.5_run_3",
+          "bike_speed": 1.5,
+          "execution_time": 76.01097869873047,
+          "final_mode_choice_equity": 1.2085865851465565,
+          "final_travel_time_equity": 4.707760464417001,
+          "final_system_efficiency": 3013.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 610,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_1.5_run_4",
+          "bike_speed": 1.5,
+          "execution_time": 69.42597389221191,
+          "final_mode_choice_equity": 1.4407102382712138,
+          "final_travel_time_equity": 5.15912458721542,
+          "final_system_efficiency": 2969.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 609,
+            "avg_route_time": 0.0
+          }
+        }
+      ],
+      "statistics": {
+        "final_mode_choice_equity": {
+          "mean": 1.1023565520966503,
+          "std": 0.20363076323648574,
+          "min": 0.8689738292011021,
+          "max": 1.4407102382712138,
+          "median": 1.0456895600418323,
+          "n_samples": 5
+        },
+        "final_travel_time_equity": {
+          "mean": 4.616587509174172,
+          "std": 0.5235495936637825,
+          "min": 3.803593166093166,
+          "max": 5.15912458721542,
+          "median": 4.707760464417001,
+          "n_samples": 5
+        },
+        "final_system_efficiency": {
+          "mean": 2968.6,
+          "std": 51.79034659084644,
+          "min": 2885.0,
+          "max": 3031.0,
+          "median": 2969.0,
+          "n_samples": 5
+        }
+      }
+    },
+    "2.0": {
+      "bike_speed": 2.0,
+      "runs": [
+        {
+          "run_id": "bike_speed_2.0_run_0",
+          "bike_speed": 2.0,
+          "execution_time": 68.33990406990051,
+          "final_mode_choice_equity": 1.0967908216830313,
+          "final_travel_time_equity": 4.2960549987826315,
+          "final_system_efficiency": 2961.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 611,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_2.0_run_1",
+          "bike_speed": 2.0,
+          "execution_time": 69.69642996788025,
+          "final_mode_choice_equity": 1.1255722024953894,
+          "final_travel_time_equity": 5.431812313758606,
+          "final_system_efficiency": 2989.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 621,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_2.0_run_2",
+          "bike_speed": 2.0,
+          "execution_time": 74.36896204948425,
+          "final_mode_choice_equity": 1.0741290972933386,
+          "final_travel_time_equity": 4.588963393326611,
+          "final_system_efficiency": 3124.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 640,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_2.0_run_3",
+          "bike_speed": 2.0,
+          "execution_time": 70.31586027145386,
+          "final_mode_choice_equity": 1.195360951398103,
+          "final_travel_time_equity": 5.405405715056252,
+          "final_system_efficiency": 2976.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 584,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_2.0_run_4",
+          "bike_speed": 2.0,
+          "execution_time": 66.56362581253052,
+          "final_mode_choice_equity": 1.204352841520983,
+          "final_travel_time_equity": 4.4862879055356935,
+          "final_system_efficiency": 2898.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 592,
+            "avg_route_time": 0.0
+          }
+        }
+      ],
+      "statistics": {
+        "final_mode_choice_equity": {
+          "mean": 1.139241182878169,
+          "std": 0.05218699912709687,
+          "min": 1.0741290972933386,
+          "max": 1.204352841520983,
+          "median": 1.1255722024953894,
+          "n_samples": 5
+        },
+        "final_travel_time_equity": {
+          "mean": 4.841704865291958,
+          "std": 0.48039956130622063,
+          "min": 4.2960549987826315,
+          "max": 5.431812313758606,
+          "median": 4.588963393326611,
+          "n_samples": 5
+        },
+        "final_system_efficiency": {
+          "mean": 2989.6,
+          "std": 74.10425089021547,
+          "min": 2898.0,
+          "max": 3124.0,
+          "median": 2976.0,
+          "n_samples": 5
+        }
+      }
+    },
+    "2.5": {
+      "bike_speed": 2.5,
+      "runs": [
+        {
+          "run_id": "bike_speed_2.5_run_0",
+          "bike_speed": 2.5,
+          "execution_time": 69.02057480812073,
+          "final_mode_choice_equity": 1.0195595618929718,
+          "final_travel_time_equity": 4.54427115688234,
+          "final_system_efficiency": 2865.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 609,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_2.5_run_1",
+          "bike_speed": 2.5,
+          "execution_time": 69.10822105407715,
+          "final_mode_choice_equity": 1.1587585254251922,
+          "final_travel_time_equity": 5.556998757523234,
+          "final_system_efficiency": 3026.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 605,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_2.5_run_2",
+          "bike_speed": 2.5,
+          "execution_time": 74.56283020973206,
+          "final_mode_choice_equity": 1.0226974117467567,
+          "final_travel_time_equity": 4.762917629246617,
+          "final_system_efficiency": 3151.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 621,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_2.5_run_3",
+          "bike_speed": 2.5,
+          "execution_time": 68.76886701583862,
+          "final_mode_choice_equity": 1.0825931029609215,
+          "final_travel_time_equity": 4.39715719860172,
+          "final_system_efficiency": 2978.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 603,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_2.5_run_4",
+          "bike_speed": 2.5,
+          "execution_time": 68.5773754119873,
+          "final_mode_choice_equity": 1.3271636163437186,
+          "final_travel_time_equity": 5.037215768344106,
+          "final_system_efficiency": 2906.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 617,
+            "avg_route_time": 0.0
+          }
+        }
+      ],
+      "statistics": {
+        "final_mode_choice_equity": {
+          "mean": 1.1221544436739124,
+          "std": 0.11432508939513372,
+          "min": 1.0195595618929718,
+          "max": 1.3271636163437186,
+          "median": 1.0825931029609215,
+          "n_samples": 5
+        },
+        "final_travel_time_equity": {
+          "mean": 4.8597121021196035,
+          "std": 0.4100110803396651,
+          "min": 4.39715719860172,
+          "max": 5.556998757523234,
+          "median": 4.762917629246617,
+          "n_samples": 5
+        },
+        "final_system_efficiency": {
+          "mean": 2985.2,
+          "std": 99.92677318917089,
+          "min": 2865.0,
+          "max": 3151.0,
+          "median": 2978.0,
+          "n_samples": 5
+        }
+      }
+    },
+    "3.0": {
+      "bike_speed": 3.0,
+      "runs": [
+        {
+          "run_id": "bike_speed_3.0_run_0",
+          "bike_speed": 3.0,
+          "execution_time": 68.87433910369873,
+          "final_mode_choice_equity": 1.0376004293530068,
+          "final_travel_time_equity": 4.546033873596405,
+          "final_system_efficiency": 2900.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 610,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_3.0_run_1",
+          "bike_speed": 3.0,
+          "execution_time": 67.19722175598145,
+          "final_mode_choice_equity": 1.303577411082482,
+          "final_travel_time_equity": 5.85349064366264,
+          "final_system_efficiency": 2978.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 584,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_3.0_run_2",
+          "bike_speed": 3.0,
+          "execution_time": 71.92338609695435,
+          "final_mode_choice_equity": 1.0499158271639633,
+          "final_travel_time_equity": 4.505957836773089,
+          "final_system_efficiency": 2876.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 615,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_3.0_run_3",
+          "bike_speed": 3.0,
+          "execution_time": 70.0779230594635,
+          "final_mode_choice_equity": 1.1821438052833846,
+          "final_travel_time_equity": 6.458350406485854,
+          "final_system_efficiency": 3001.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 589,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_3.0_run_4",
+          "bike_speed": 3.0,
+          "execution_time": 74.48628687858582,
+          "final_mode_choice_equity": 1.1150136570147422,
+          "final_travel_time_equity": 4.786357138795916,
+          "final_system_efficiency": 2840.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 611,
+            "avg_route_time": 0.0
+          }
+        }
+      ],
+      "statistics": {
+        "final_mode_choice_equity": {
+          "mean": 1.1376502259795158,
+          "std": 0.09770487208987368,
+          "min": 1.0376004293530068,
+          "max": 1.303577411082482,
+          "median": 1.1150136570147422,
+          "n_samples": 5
+        },
+        "final_travel_time_equity": {
+          "mean": 5.2300379798627805,
+          "std": 0.7856781785351629,
+          "min": 4.505957836773089,
+          "max": 6.458350406485854,
+          "median": 4.786357138795916,
+          "n_samples": 5
+        },
+        "final_system_efficiency": {
+          "mean": 2919.0,
+          "std": 61.083549340227435,
+          "min": 2840.0,
+          "max": 3001.0,
+          "median": 2900.0,
+          "n_samples": 5
+        }
+      }
+    },
+    "3.5": {
+      "bike_speed": 3.5,
+      "runs": [
+        {
+          "run_id": "bike_speed_3.5_run_0",
+          "bike_speed": 3.5,
+          "execution_time": 78.12217617034912,
+          "final_mode_choice_equity": 1.1388048426729633,
+          "final_travel_time_equity": 4.877676600975242,
+          "final_system_efficiency": 3029.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 608,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_3.5_run_1",
+          "bike_speed": 3.5,
+          "execution_time": 75.28707194328308,
+          "final_mode_choice_equity": 1.1891275986030638,
+          "final_travel_time_equity": 4.300115380519168,
+          "final_system_efficiency": 3025.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 617,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_3.5_run_2",
+          "bike_speed": 3.5,
+          "execution_time": 74.0620059967041,
+          "final_mode_choice_equity": 1.1260356349255234,
+          "final_travel_time_equity": 4.0301199378248125,
+          "final_system_efficiency": 3014.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 642,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_3.5_run_3",
+          "bike_speed": 3.5,
+          "execution_time": 73.10093212127686,
+          "final_mode_choice_equity": 1.0854804103210842,
+          "final_travel_time_equity": 5.491752700786776,
+          "final_system_efficiency": 3229.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 611,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_3.5_run_4",
+          "bike_speed": 3.5,
+          "execution_time": 74.10365915298462,
+          "final_mode_choice_equity": 1.2843822148146615,
+          "final_travel_time_equity": 4.311944939549406,
+          "final_system_efficiency": 3014.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 637,
+            "avg_route_time": 0.0
+          }
+        }
+      ],
+      "statistics": {
+        "final_mode_choice_equity": {
+          "mean": 1.1647661402674594,
+          "std": 0.06835459594245358,
+          "min": 1.0854804103210842,
+          "max": 1.2843822148146615,
+          "median": 1.1388048426729633,
+          "n_samples": 5
+        },
+        "final_travel_time_equity": {
+          "mean": 4.602321911931081,
+          "std": 0.5234443630094319,
+          "min": 4.0301199378248125,
+          "max": 5.491752700786776,
+          "median": 4.311944939549406,
+          "n_samples": 5
+        },
+        "final_system_efficiency": {
+          "mean": 3062.2,
+          "std": 83.61196086685206,
+          "min": 3014.0,
+          "max": 3229.0,
+          "median": 3025.0,
+          "n_samples": 5
+        }
+      }
+    },
+    "4.0": {
+      "bike_speed": 4.0,
+      "runs": [
+        {
+          "run_id": "bike_speed_4.0_run_0",
+          "bike_speed": 4.0,
+          "execution_time": 73.94577717781067,
+          "final_mode_choice_equity": 1.1419994884617946,
+          "final_travel_time_equity": 4.696115090569481,
+          "final_system_efficiency": 2953.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 603,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_4.0_run_1",
+          "bike_speed": 4.0,
+          "execution_time": 76.63277959823608,
+          "final_mode_choice_equity": 1.207914907105165,
+          "final_travel_time_equity": 5.740293158769476,
+          "final_system_efficiency": 3186.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 610,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_4.0_run_2",
+          "bike_speed": 4.0,
+          "execution_time": 75.80195212364197,
+          "final_mode_choice_equity": 1.0264491791084422,
+          "final_travel_time_equity": 4.8425394467635225,
+          "final_system_efficiency": 2888.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 575,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_4.0_run_3",
+          "bike_speed": 4.0,
+          "execution_time": 80.27977085113525,
+          "final_mode_choice_equity": 1.1039201505522747,
+          "final_travel_time_equity": 5.261140320193109,
+          "final_system_efficiency": 2909.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 569,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_4.0_run_4",
+          "bike_speed": 4.0,
+          "execution_time": 76.49808502197266,
+          "final_mode_choice_equity": 1.0974466861105954,
+          "final_travel_time_equity": 4.381938185798976,
+          "final_system_efficiency": 2820.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 594,
+            "avg_route_time": 0.0
+          }
+        }
+      ],
+      "statistics": {
+        "final_mode_choice_equity": {
+          "mean": 1.1155460822676546,
+          "std": 0.059384831536677334,
+          "min": 1.0264491791084422,
+          "max": 1.207914907105165,
+          "median": 1.1039201505522747,
+          "n_samples": 5
+        },
+        "final_travel_time_equity": {
+          "mean": 4.984405240418913,
+          "std": 0.4720492591452892,
+          "min": 4.381938185798976,
+          "max": 5.740293158769476,
+          "median": 4.8425394467635225,
+          "n_samples": 5
+        },
+        "final_system_efficiency": {
+          "mean": 2951.2,
+          "std": 124.99823998760941,
+          "min": 2820.0,
+          "max": 3186.0,
+          "median": 2909.0,
+          "n_samples": 5
+        }
+      }
+    },
+    "4.5": {
+      "bike_speed": 4.5,
+      "runs": [
+        {
+          "run_id": "bike_speed_4.5_run_0",
+          "bike_speed": 4.5,
+          "execution_time": 71.9753589630127,
+          "final_mode_choice_equity": 1.1139134997909854,
+          "final_travel_time_equity": 5.611940057340225,
+          "final_system_efficiency": 2957.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 602,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_4.5_run_1",
+          "bike_speed": 4.5,
+          "execution_time": 72.57338690757751,
+          "final_mode_choice_equity": 1.3167044595616024,
+          "final_travel_time_equity": 4.795477589104921,
+          "final_system_efficiency": 2944.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 587,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_4.5_run_2",
+          "bike_speed": 4.5,
+          "execution_time": 72.05510210990906,
+          "final_mode_choice_equity": 0.7218234941901557,
+          "final_travel_time_equity": 3.7432585100804605,
+          "final_system_efficiency": 2719.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 578,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_4.5_run_3",
+          "bike_speed": 4.5,
+          "execution_time": 78.30019187927246,
+          "final_mode_choice_equity": 1.1203715316366887,
+          "final_travel_time_equity": 4.608846344287639,
+          "final_system_efficiency": 3027.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 608,
+            "avg_route_time": 0.0
+          }
+        },
+        {
+          "run_id": "bike_speed_4.5_run_4",
+          "bike_speed": 4.5,
+          "execution_time": 75.69622588157654,
+          "final_mode_choice_equity": 1.0200578171005914,
+          "final_travel_time_equity": 4.632193334740477,
+          "final_system_efficiency": 2877.0,
+          "num_steps": 144,
+          "model_summary": {
+            "model_type": "NTEO Mobility Model",
+            "network_topology": "degree_constrained",
+            "network_stats": {
+              "num_nodes": 46,
+              "num_edges": 113,
+              "is_connected": true,
+              "topology_type": "degree_constrained"
+            },
+            "total_commuters": 200,
+            "total_stations": 10,
+            "total_maas_services": 2,
+            "routing_system": "Network Topology Only (Dual System Eliminated)",
+            "route_calculations": 593,
+            "avg_route_time": 0.0
+          }
+        }
+      ],
+      "statistics": {
+        "final_mode_choice_equity": {
+          "mean": 1.0585741604560046,
+          "std": 0.19411188980337402,
+          "min": 0.7218234941901557,
+          "max": 1.3167044595616024,
+          "median": 1.1139134997909854,
+          "n_samples": 5
+        },
+        "final_travel_time_equity": {
+          "mean": 4.678343167110745,
+          "std": 0.594418464969893,
+          "min": 3.7432585100804605,
+          "max": 5.611940057340225,
+          "median": 4.632193334740477,
+          "n_samples": 5
+        },
+        "final_system_efficiency": {
+          "mean": 2904.8,
+          "std": 104.39233688350883,
+          "min": 2719.0,
+          "max": 3027.0,
+          "median": 2944.0,
+          "n_samples": 5
+        }
+      }
+    }
+  },
+  "statistical_analysis": {
+    "speed_sensitivity": {
+      "final_mode_choice_equity": {
+        "speeds": [
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.0,
+          4.5
+        ],
+        "values": [
+          1.1023784991193426,
+          1.1023565520966503,
+          1.139241182878169,
+          1.1221544436739124,
+          1.1376502259795158,
+          1.1647661402674594,
+          1.1155460822676546,
+          1.0585741604560046
+        ],
+        "correlation_with_speed": -0.1363837242805982,
+        "trend_coefficient": -0.0035383825074969074,
+        "interpretation": "weak negative trend (faster bikes \u2192 better equity)"
+      },
+      "final_travel_time_equity": {
+        "speeds": [
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.0,
+          4.5
+        ],
+        "values": [
+          4.717212199367578,
+          4.616587509174172,
+          4.841704865291958,
+          4.8597121021196035,
+          5.2300379798627805,
+          4.602321911931081,
+          4.984405240418913,
+          4.678343167110745
+        ],
+        "correlation_with_speed": 0.16719896856220104,
+        "trend_coefficient": 0.02902815352586736,
+        "interpretation": "weak positive trend (faster bikes \u2192 worse equity)"
+      },
+      "final_system_efficiency": {
+        "speeds": [
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.0,
+          4.5
+        ],
+        "values": [
+          2983.8,
+          2968.6,
+          2989.6,
+          2985.2,
+          2919.0,
+          3062.2,
+          2951.2,
+          2904.8
+        ],
+        "correlation_with_speed": -0.2932430648884021,
+        "trend_coefficient": -11.628571428571313,
+        "interpretation": "weak negative trend (faster bikes \u2192 better efficiency)"
+      }
+    },
+    "optimal_speeds": {
+      "best_mode_choice_equity": {
+        "speed": 4.5,
+        "value": 1.0585741604560046
+      },
+      "best_travel_time_equity": {
+        "speed": 3.5,
+        "value": 4.602321911931081
+      },
+      "best_system_efficiency": {
+        "speed": 4.5,
+        "value": 2904.8
+      }
+    }
+  },
+  "execution_time": 2932.6710090637207
+}

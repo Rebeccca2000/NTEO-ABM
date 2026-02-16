@@ -1,0 +1,531 @@
+{
+  "analysis_type": "maas_surcharge_impact",
+  "network_type": "base_sydney",
+  "timestamp": "20250826_235755",
+  "parameters": {
+    "s_base_values": [
+      0.0,
+      0.02,
+      0.05,
+      0.08,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "num_runs": 3,
+    "steps_per_run": 144,
+    "num_commuters": 200
+  },
+  "raw_data": {
+    "0.0": {
+      "parameter_value": 0.0,
+      "runs": [
+        {
+          "run_id": "s_base_0.0_run_0",
+          "execution_time": 66.23355007171631,
+          "final_mode_choice_equity": 1.4281521121196723,
+          "final_travel_time_equity": 9.354825860179622,
+          "final_system_efficiency": 3695.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 26,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.0_run_1",
+          "execution_time": 68.57239484786987,
+          "final_mode_choice_equity": 1.5226146547179757,
+          "final_travel_time_equity": 10.982121672264991,
+          "final_system_efficiency": 3818.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 27,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.0_run_2",
+          "execution_time": 65.24897813796997,
+          "final_mode_choice_equity": 1.4721995216211132,
+          "final_travel_time_equity": 11.134739850978104,
+          "final_system_efficiency": 3759.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 22,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.4743220961529204,
+        "final_mode_choice_equity_std": 0.03859336713751367,
+        "final_mode_choice_equity_min": 1.4281521121196723,
+        "final_mode_choice_equity_max": 1.5226146547179757,
+        "final_travel_time_equity_mean": 10.490562461140906,
+        "final_travel_time_equity_std": 0.8055003816223987,
+        "final_travel_time_equity_min": 9.354825860179622,
+        "final_travel_time_equity_max": 11.134739850978104,
+        "final_system_efficiency_mean": 3757.3333333333335,
+        "final_system_efficiency_std": 50.22836737232148,
+        "final_system_efficiency_min": 3695.0,
+        "final_system_efficiency_max": 3818.0
+      }
+    },
+    "0.02": {
+      "parameter_value": 0.02,
+      "runs": [
+        {
+          "run_id": "s_base_0.02_run_0",
+          "execution_time": 66.02410197257996,
+          "final_mode_choice_equity": 1.37131165466965,
+          "final_travel_time_equity": 10.061111800140594,
+          "final_system_efficiency": 3675.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 26,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.02_run_1",
+          "execution_time": 69.92668390274048,
+          "final_mode_choice_equity": 1.388376063285988,
+          "final_travel_time_equity": 9.680963014692907,
+          "final_system_efficiency": 3861.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 26,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.02_run_2",
+          "execution_time": 68.98142886161804,
+          "final_mode_choice_equity": 1.3274906343426702,
+          "final_travel_time_equity": 9.983526151074788,
+          "final_system_efficiency": 3840.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 31,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.362392784099436,
+        "final_mode_choice_equity_std": 0.02564395384997046,
+        "final_mode_choice_equity_min": 1.3274906343426702,
+        "final_mode_choice_equity_max": 1.388376063285988,
+        "final_travel_time_equity_mean": 9.908533655302763,
+        "final_travel_time_equity_std": 0.1640044320253284,
+        "final_travel_time_equity_min": 9.680963014692907,
+        "final_travel_time_equity_max": 10.061111800140594,
+        "final_system_efficiency_mean": 3792.0,
+        "final_system_efficiency_std": 83.17451532771321,
+        "final_system_efficiency_min": 3675.0,
+        "final_system_efficiency_max": 3861.0
+      }
+    },
+    "0.05": {
+      "parameter_value": 0.05,
+      "runs": [
+        {
+          "run_id": "s_base_0.05_run_0",
+          "execution_time": 64.97376704216003,
+          "final_mode_choice_equity": 1.3698006326942003,
+          "final_travel_time_equity": 10.600251211939495,
+          "final_system_efficiency": 3862.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 26,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.05_run_1",
+          "execution_time": 66.25898122787476,
+          "final_mode_choice_equity": 1.5380160556849296,
+          "final_travel_time_equity": 11.236694344024343,
+          "final_system_efficiency": 3901.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 21,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.05_run_2",
+          "execution_time": 67.8088481426239,
+          "final_mode_choice_equity": 1.448370904163587,
+          "final_travel_time_equity": 11.909709497030205,
+          "final_system_efficiency": 3659.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 24,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.4520625308475725,
+        "final_mode_choice_equity_std": 0.06872325280266223,
+        "final_mode_choice_equity_min": 1.3698006326942003,
+        "final_mode_choice_equity_max": 1.5380160556849296,
+        "final_travel_time_equity_mean": 11.248885017664682,
+        "final_travel_time_equity_std": 0.5346536009361759,
+        "final_travel_time_equity_min": 10.600251211939495,
+        "final_travel_time_equity_max": 11.909709497030205,
+        "final_system_efficiency_mean": 3807.3333333333335,
+        "final_system_efficiency_std": 106.08906111795358,
+        "final_system_efficiency_min": 3659.0,
+        "final_system_efficiency_max": 3901.0
+      }
+    },
+    "0.08": {
+      "parameter_value": 0.08,
+      "runs": [
+        {
+          "run_id": "s_base_0.08_run_0",
+          "execution_time": 67.95397901535034,
+          "final_mode_choice_equity": 1.3514331001201403,
+          "final_travel_time_equity": 11.750614398144108,
+          "final_system_efficiency": 3880.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 37,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.08_run_1",
+          "execution_time": 69.529367685318,
+          "final_mode_choice_equity": 1.4003585561725098,
+          "final_travel_time_equity": 11.075438463636239,
+          "final_system_efficiency": 4004.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 27,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.08_run_2",
+          "execution_time": 70.49878001213074,
+          "final_mode_choice_equity": 1.5926355390641105,
+          "final_travel_time_equity": 10.914510395299516,
+          "final_system_efficiency": 3805.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 30,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.4481423984522535,
+        "final_mode_choice_equity_std": 0.10410611837732844,
+        "final_mode_choice_equity_min": 1.3514331001201403,
+        "final_mode_choice_equity_max": 1.5926355390641105,
+        "final_travel_time_equity_mean": 11.24685441902662,
+        "final_travel_time_equity_std": 0.36222005117974515,
+        "final_travel_time_equity_min": 10.914510395299516,
+        "final_travel_time_equity_max": 11.750614398144108,
+        "final_system_efficiency_mean": 3896.3333333333335,
+        "final_system_efficiency_std": 82.05824489687527,
+        "final_system_efficiency_min": 3805.0,
+        "final_system_efficiency_max": 4004.0
+      }
+    },
+    "0.1": {
+      "parameter_value": 0.1,
+      "runs": [
+        {
+          "run_id": "s_base_0.1_run_0",
+          "execution_time": 68.33664393424988,
+          "final_mode_choice_equity": 1.4898261072328263,
+          "final_travel_time_equity": 10.692648205352118,
+          "final_system_efficiency": 3840.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 35,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.1_run_1",
+          "execution_time": 67.76190114021301,
+          "final_mode_choice_equity": 1.437203571488852,
+          "final_travel_time_equity": 11.77218413486079,
+          "final_system_efficiency": 3808.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 23,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.1_run_2",
+          "execution_time": 71.54311680793762,
+          "final_mode_choice_equity": 1.3521517487651848,
+          "final_travel_time_equity": 10.836347801535512,
+          "final_system_efficiency": 4156.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 28,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.4263938091622876,
+        "final_mode_choice_equity_std": 0.05672269073329041,
+        "final_mode_choice_equity_min": 1.3521517487651848,
+        "final_mode_choice_equity_max": 1.4898261072328263,
+        "final_travel_time_equity_mean": 11.100393380582807,
+        "final_travel_time_equity_std": 0.47863660999123636,
+        "final_travel_time_equity_min": 10.692648205352118,
+        "final_travel_time_equity_max": 11.77218413486079,
+        "final_system_efficiency_mean": 3934.6666666666665,
+        "final_system_efficiency_std": 157.0505934050836,
+        "final_system_efficiency_min": 3808.0,
+        "final_system_efficiency_max": 4156.0
+      }
+    },
+    "0.15": {
+      "parameter_value": 0.15,
+      "runs": [
+        {
+          "run_id": "s_base_0.15_run_0",
+          "execution_time": 70.24276399612427,
+          "final_mode_choice_equity": 1.4379951977115626,
+          "final_travel_time_equity": 9.47236752296649,
+          "final_system_efficiency": 3782.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 29,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.15_run_1",
+          "execution_time": 72.09196209907532,
+          "final_mode_choice_equity": 1.3722673755689163,
+          "final_travel_time_equity": 11.368458852226276,
+          "final_system_efficiency": 4131.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 21,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.15_run_2",
+          "execution_time": 70.1755359172821,
+          "final_mode_choice_equity": 1.4275275119208513,
+          "final_travel_time_equity": 10.027750798180929,
+          "final_system_efficiency": 3759.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 27,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.41259669506711,
+        "final_mode_choice_equity_std": 0.028835552359819147,
+        "final_mode_choice_equity_min": 1.3722673755689163,
+        "final_mode_choice_equity_max": 1.4379951977115626,
+        "final_travel_time_equity_mean": 10.289525724457897,
+        "final_travel_time_equity_std": 0.7958999795803574,
+        "final_travel_time_equity_min": 9.47236752296649,
+        "final_travel_time_equity_max": 11.368458852226276,
+        "final_system_efficiency_mean": 3890.6666666666665,
+        "final_system_efficiency_std": 170.20053531708476,
+        "final_system_efficiency_min": 3759.0,
+        "final_system_efficiency_max": 4131.0
+      }
+    },
+    "0.2": {
+      "parameter_value": 0.2,
+      "runs": [
+        {
+          "run_id": "s_base_0.2_run_0",
+          "execution_time": 67.14813089370728,
+          "final_mode_choice_equity": 1.4293845554581748,
+          "final_travel_time_equity": 11.641037806660716,
+          "final_system_efficiency": 3993.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 27,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.2_run_1",
+          "execution_time": 68.80621004104614,
+          "final_mode_choice_equity": 1.3673307502505976,
+          "final_travel_time_equity": 11.812317824985096,
+          "final_system_efficiency": 3994.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 25,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.2_run_2",
+          "execution_time": 59.36487102508545,
+          "final_mode_choice_equity": 1.2639052280147585,
+          "final_travel_time_equity": 9.123383713277349,
+          "final_system_efficiency": 3577.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 25,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.3535401779078438,
+        "final_mode_choice_equity_std": 0.06825680365080537,
+        "final_mode_choice_equity_min": 1.2639052280147585,
+        "final_mode_choice_equity_max": 1.4293845554581748,
+        "final_travel_time_equity_mean": 10.858913114974387,
+        "final_travel_time_equity_std": 1.2291951131493755,
+        "final_travel_time_equity_min": 9.123383713277349,
+        "final_travel_time_equity_max": 11.812317824985096,
+        "final_system_efficiency_mean": 3854.6666666666665,
+        "final_system_efficiency_std": 196.34040734284818,
+        "final_system_efficiency_min": 3577.0,
+        "final_system_efficiency_max": 3994.0
+      }
+    },
+    "0.25": {
+      "parameter_value": 0.25,
+      "runs": [
+        {
+          "run_id": "s_base_0.25_run_0",
+          "execution_time": 60.790016651153564,
+          "final_mode_choice_equity": 1.4005995742541424,
+          "final_travel_time_equity": 9.819678163626614,
+          "final_system_efficiency": 3610.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 13,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.25_run_1",
+          "execution_time": 68.03125214576721,
+          "final_mode_choice_equity": 1.4243080007636324,
+          "final_travel_time_equity": 10.309616796991895,
+          "final_system_efficiency": 3955.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 29,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.25_run_2",
+          "execution_time": 63.691813945770264,
+          "final_mode_choice_equity": 1.419785240647007,
+          "final_travel_time_equity": 12.301199787100915,
+          "final_system_efficiency": 3897.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 16,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.4148976052215938,
+        "final_mode_choice_equity_std": 0.01027745451389552,
+        "final_mode_choice_equity_min": 1.4005995742541424,
+        "final_mode_choice_equity_max": 1.4243080007636324,
+        "final_travel_time_equity_mean": 10.810164915906475,
+        "final_travel_time_equity_std": 1.0731258722238584,
+        "final_travel_time_equity_min": 9.819678163626614,
+        "final_travel_time_equity_max": 12.301199787100915,
+        "final_system_efficiency_mean": 3820.6666666666665,
+        "final_system_efficiency_std": 150.83397789917524,
+        "final_system_efficiency_min": 3610.0,
+        "final_system_efficiency_max": 3955.0
+      }
+    },
+    "0.3": {
+      "parameter_value": 0.3,
+      "runs": [
+        {
+          "run_id": "s_base_0.3_run_0",
+          "execution_time": 66.97861695289612,
+          "final_mode_choice_equity": 1.4328906858956174,
+          "final_travel_time_equity": 10.451198199725003,
+          "final_system_efficiency": 3666.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 21,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.3_run_1",
+          "execution_time": 64.92850708961487,
+          "final_mode_choice_equity": 1.3981680306731856,
+          "final_travel_time_equity": 9.021897456570958,
+          "final_system_efficiency": 3717.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 20,
+          "maas_requests": 0
+        },
+        {
+          "run_id": "s_base_0.3_run_2",
+          "execution_time": 66.85126900672913,
+          "final_mode_choice_equity": 1.5127533890016795,
+          "final_travel_time_equity": 12.697758802995534,
+          "final_system_efficiency": 4114.0,
+          "steps_completed": 144,
+          "maas_adoption_rate": 0.0,
+          "total_transport_requests": 27,
+          "maas_requests": 0
+        }
+      ],
+      "metrics": {
+        "valid_runs": 3,
+        "final_mode_choice_equity_mean": 1.4479373685234942,
+        "final_mode_choice_equity_std": 0.04797397266154065,
+        "final_mode_choice_equity_min": 1.3981680306731856,
+        "final_mode_choice_equity_max": 1.5127533890016795,
+        "final_travel_time_equity_mean": 10.723618153097163,
+        "final_travel_time_equity_std": 1.5129768962283245,
+        "final_travel_time_equity_min": 9.021897456570958,
+        "final_travel_time_equity_max": 12.697758802995534,
+        "final_system_efficiency_mean": 3832.3333333333335,
+        "final_system_efficiency_std": 200.2537279442147,
+        "final_system_efficiency_min": 3666.0,
+        "final_system_efficiency_max": 4114.0
+      }
+    }
+  },
+  "summary_stats": {
+    "parameters_tested": 9,
+    "optimal_values": {
+      "final_mode_choice_equity": {
+        "optimal_s_base": 0.2,
+        "optimal_value": 1.3535401779078438
+      },
+      "final_travel_time_equity": {
+        "optimal_s_base": 0.02,
+        "optimal_value": 9.908533655302763
+      },
+      "final_system_efficiency": {
+        "optimal_s_base": 0.1,
+        "optimal_value": 3934.6666666666665
+      }
+    },
+    "sensitivity_analysis": {
+      "final_mode_choice_equity": {
+        "range": 0.12078191824507667,
+        "coefficient_of_variation": 0.027138962641880784
+      },
+      "final_travel_time_equity": {
+        "range": 1.3403513623619183,
+        "coefficient_of_variation": 0.039514677920148344
+      },
+      "final_system_efficiency": {
+        "range": 177.33333333333303,
+        "coefficient_of_variation": 0.013845821728552159
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+WCTR STATISTICAL ANALYSIS SUMMARY
+==================================================
+
+ANOVA RESULTS (Parameter Effects Within Topologies):
+--------------------------------------------------
+
+GRID:
+
+SAMPLE SIZES:
+--------------------
+grid: 2 total simulation runs
+
+Generated: 2025-08-25 14:02:51

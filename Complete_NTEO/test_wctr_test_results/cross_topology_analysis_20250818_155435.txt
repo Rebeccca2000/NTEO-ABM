@@ -1,0 +1,50 @@
+CROSS-TOPOLOGY STATISTICAL ANALYSIS
+==================================================
+
+TOPOLOGY PERFORMANCE COMPARISON:
+----------------------------------------
+
+MODE CHOICE EQUITY:
+  Overall ANOVA: F=6.520, p=0.0018 (SIGNIFICANT)
+  Topology Means:
+    degree_constrained: 1.897 ± 0.394
+    small_world: 1.975 ± 0.343
+    scale_free: 1.725 ± 0.439
+
+TRAVEL TIME EQUITY:
+  Overall ANOVA: F=3.561, p=0.0304 (SIGNIFICANT)
+  Topology Means:
+    degree_constrained: 31.597 ± 9.238
+    small_world: 31.072 ± 9.123
+    scale_free: 27.523 ± 9.681
+
+SYSTEM EFFICIENCY:
+  Overall ANOVA: F=3.878, p=0.0224 (SIGNIFICANT)
+  Topology Means:
+    degree_constrained: 532.754 ± 109.126
+    small_world: 525.683 ± 118.240
+    scale_free: 479.138 ± 125.581
+
+BEST PERFORMERS:
+--------------------
+mode_choice_equity: scale_free (mean: 1.725)
+travel_time_equity: scale_free (mean: 27.523)
+system_efficiency: degree_constrained (mean: 532.754)
+
+PAIRWISE COMPARISONS:
+-------------------------
+
+mode_choice_equity:
+  degree_constrained_vs_small_world: p=0.2459, Cohen's d=-0.210 (small effect), NS
+  degree_constrained_vs_scale_free: p=0.0208, Cohen's d=0.414 (small effect), SIG
+  small_world_vs_scale_free: p=0.0006, Cohen's d=0.635 (medium effect), SIG
+
+travel_time_equity:
+  degree_constrained_vs_small_world: p=0.7517, Cohen's d=0.057 (negligible effect), NS
+  degree_constrained_vs_scale_free: p=0.0162, Cohen's d=0.431 (small effect), SIG
+  small_world_vs_scale_free: p=0.0384, Cohen's d=0.377 (small effect), SIG
+
+system_efficiency:
+  degree_constrained_vs_small_world: p=0.7316, Cohen's d=0.062 (negligible effect), NS
+  degree_constrained_vs_scale_free: p=0.0111, Cohen's d=0.456 (small effect), SIG
+  small_world_vs_scale_free: p=0.0363, Cohen's d=0.382 (small effect), SIG
